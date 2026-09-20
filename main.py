@@ -5,7 +5,7 @@ from logic import check_win, check_draw, get_bot_move
 class TicTacToeBotGUI:
     def __init__(self, root):
         self.root = root
-        self.root.title("Игра против Компьютера"))
+        self.root.title("Игра против Компьютера")
         self.root.geometry("320x380")
         self.root.configure(bg="#2c3e50")
         
